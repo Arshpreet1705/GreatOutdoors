@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GreatOutdoor.PresentationLayer", "GreatOutdoor\GreatOutdoor.PresentationLayer.csproj", "{FE27877A-A58C-4550-82E2-EFB07864B613}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GreatOutdoor.Helpers", "GreatOutdoor.Helpers\GreatOutdoor.Helpers.csproj", "{CE030FF9-30BE-43E6-AF87-13AD932504D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GreatOutdoor.Exceptions", "GreatOutdoor.Exceptions\GreatOutdoor.Exceptions.csproj", "{CE955A81-9F6D-459B-A306-F58214213B63}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GreatOutdoor.Entities", "GreatOutdoor.Entities\GreatOutdoor.Entities.csproj", "{580E561C-0CD2-4A2D-9559-5437A479DDC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GreatOutdoor.DataAccessLayer", "GreatOutdoor.DataAccessLayer\GreatOutdoor.DataAccessLayer.csproj", "{01E25AC7-C6EF-4B82-AAA7-19E6D554911A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GreatOutdoor.Contracts", "GreatOutdoor.Contracts\GreatOutdoor.Contracts.csproj", "{805C58A0-3F72-4618-8B8C-A765D282F5B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GreatOutdoor.BusinessLayer", "GreatOutdoor.BusinessLayer\GreatOutdoor.BusinessLayer.csproj", "{E1ACCED5-4082-435A-831A-89A706BD0987}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FE27877A-A58C-4550-82E2-EFB07864B613}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE27877A-A58C-4550-82E2-EFB07864B613}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE27877A-A58C-4550-82E2-EFB07864B613}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE27877A-A58C-4550-82E2-EFB07864B613}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE030FF9-30BE-43E6-AF87-13AD932504D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE030FF9-30BE-43E6-AF87-13AD932504D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE030FF9-30BE-43E6-AF87-13AD932504D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE030FF9-30BE-43E6-AF87-13AD932504D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE955A81-9F6D-459B-A306-F58214213B63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE955A81-9F6D-459B-A306-F58214213B63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE955A81-9F6D-459B-A306-F58214213B63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE955A81-9F6D-459B-A306-F58214213B63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{580E561C-0CD2-4A2D-9559-5437A479DDC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{580E561C-0CD2-4A2D-9559-5437A479DDC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{580E561C-0CD2-4A2D-9559-5437A479DDC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{580E561C-0CD2-4A2D-9559-5437A479DDC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01E25AC7-C6EF-4B82-AAA7-19E6D554911A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01E25AC7-C6EF-4B82-AAA7-19E6D554911A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01E25AC7-C6EF-4B82-AAA7-19E6D554911A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01E25AC7-C6EF-4B82-AAA7-19E6D554911A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{805C58A0-3F72-4618-8B8C-A765D282F5B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{805C58A0-3F72-4618-8B8C-A765D282F5B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{805C58A0-3F72-4618-8B8C-A765D282F5B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{805C58A0-3F72-4618-8B8C-A765D282F5B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1ACCED5-4082-435A-831A-89A706BD0987}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1ACCED5-4082-435A-831A-89A706BD0987}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1ACCED5-4082-435A-831A-89A706BD0987}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1ACCED5-4082-435A-831A-89A706BD0987}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6C9454CB-3BDD-4E55-998D-A294F919C2B8}
+	EndGlobalSection
+EndGlobal
